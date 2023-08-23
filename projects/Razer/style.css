@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica Neue, Arial,Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
+} 
+.main-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 61px;
+    background-color: black;
+    align-items: center;
+    position: sticky;
+}
+.logo{
+    width: 35px;
+}
+.logo img{
+    width: 35px;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+    color: #888888;
+    align-items: center;
+}
+.nav-content a{
+    font-size: 16px;
+}
+.panel{
+    height: 44px;
+    background-color: #555555;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    border-top: 1px solid green;
+    font-size: 14px;
+}
+.fa{
+    color: #555555;
+    font-size: 20px;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://assets3.razerzone.com/aGRR_dJ4p1M1pzhkRlrEjE3gvNc=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh1a%2Fh0e%2F9525050998814%2F230523-blade16-s95-mercury-1500x1000-2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    animation: picchanger 20s ease-in-out 1s infinite;
+}
+@keyframes picchanger{
+    0%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://assets3.razerzone.com/aGRR_dJ4p1M1pzhkRlrEjE3gvNc=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh1a%2Fh0e%2F9525050998814%2F230523-blade16-s95-mercury-1500x1000-2.jpg");
+    }
+    20%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://assets3.razerzone.com/N0EVxYqHolF1XMcsCkHTH5gPEcM=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh62%2Fh40%2F9525051195422%2F230523-blade16-s95-mercury-1500x1000-3.jpg");
+    }
+    60%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://assets3.razerzone.com/AUMwW2n0j_vYbr5ZS10K3I3bgSI=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fha0%2Fh3f%2F9525051129886%2F230523-blade16-s95-mercury-1500x1000-1.jpg");
+    }
+    80%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://assets3.razerzone.com/U-1IxSDaR6uQzwkmguoVWk_IzoI=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhc7%2Fh0e%2F9525050933278%2F230523-blade18-k95-mercury-1500x1000-5.jpg");
+    }
+}
+.main-container{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    line-height: 50px;
+}
+.main-container h1{
+    font-size: 45px;
+}
+.main-container a{
+    padding: 0 10px;
+    padding-top: 20px;
+    font-size: 21px;
+}
+.main-container a::after{
+    content: ">";
+    color: green;
+    font-size: 21px;
+    padding: 0 5px;
+}
+.main-container-2{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets3.razerzone.com/1JYwSTVr5hEtReun8Nokyou3ND0=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhba%2Fhd9%2F9286404702238%2F210104-blade14-p8-fhd-1500x1000-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.main-text-2{
+    color: white;
+    padding-top: 40px;
+    line-height: 45px;
+}
+.main-text-2 h1{
+    font-size: 48px;
+}
+.main-text-2 a::after{
+    content: ">";
+    color: azure;
+    padding: 0 5px;
+}
+.main-container-3{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets2.razerzone.com/images/pnx.assets/ee38bb7a1d311afeccd58b5ceee7df37/hammerhead-pro-hyperspeed-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.main-container-3 a{
+    padding: 0 10px;
+    padding-top: 20px;
+    font-size: 21px;
+}
+.flexbox-1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #222222;
+    
+}
+.flex-container-1{
+    width: 49.7%;
+    height: 99%;
+    align-self: flex-end;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets2.razerzone.com/images/pnx.assets/d4543514314881eb66919f1122459895/rapid-trigger-mode-hero-desktop.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.flex-text-1{
+    color: white;
+    padding-top: 30px;
+    line-height: 40px;
+}
+.flex-text-1 a::after{
+    content: ">";
+    padding: 0 5px;
+    color: rgb(41, 201, 41);
+}
+.flex-container-2{
+    width: 49.7%;
+    height: 99%;
+    align-self: flex-end;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("https://assets2.razerzone.com/images/pnx.assets/22bc4713fa8678c751d7c001d99995fe/hero-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.flex-container-3{
+    width: 49.7%;
+    height: 99%;
+    align-self: flex-end;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("https://assets2.razerzone.com/images/pnx.assets/364bd2434bb9f7eca125a87b920398d6/razer-blade-15-ch9-hero-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.flex-container-4{
+    width: 49.7%;
+    height: 99%;
+    align-self: flex-end;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets2.razerzone.com/images/pnx.assets/7f74132b1ddc84185fc87dbd9016ac57/razer-enki-pro-automobili-lamborghini-hero-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.flex-container-5{
+    width: 49.7%;
+    height: 99%;
+    align-self: flex-end;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.gold.razer.com/cms/assets/promotions/gold/1684481412184/GEYDQMDYGEYDQMC7KNKVARKSINCUYTBAJVQXSICXMVRHG2DPOAQEYYLVNZRWQX2HNRXWEYLMEAUDMKI=.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.flex-container-6{
+    width: 49.7%;
+    height: 99%;
+    align-self: flex-end;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets2.razerzone.com/images/pnx.assets/9d62c1abff9014287154ad41465dbea6/razer-edge-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.box-shadow:hover{
+    border: 1px solid white;
+}

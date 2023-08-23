@@ -1,0 +1,57 @@
+.section-5-main{
+    width: 100%;
+    height: 475px;
+    display: flex;
+    padding: 48px 0;
+    justify-content: center;
+    background-color: #F5F5F5;
+    margin-top: 48px;
+}
+.section-5-container{
+    width: 1140px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.section-5-container-img{
+    width: 365px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.section-5-container-img img{
+    width: 230px;
+    height: 100%;
+}
+.section-5-container-txt-area{
+    width: 460px;
+    height: 211px;
+    padding: 48px 20px;
+    margin-left: 100px;
+    text-align: left;
+}
+.section-5-container-txt-area p{
+    padding: 10px 0;
+}
+#big-txt{
+    font-size: 1.5rem;
+}
+#sml-txt{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.app-logo{
+    width: 470px;
+    height: 62px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.app-logo img{
+    width: 181px;
+    height: 100%;
+    padding: 0 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+}

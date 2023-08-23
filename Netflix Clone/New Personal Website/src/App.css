@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(226, 219, 219);
+}
+p{
+  background-color: rgb(45, 66, 66);
+  width: 76vw;
+  font-size: 15px;
+  color: white;
+}
+
+.preview-txt{
+  width: 76vw;
+  background-color: #fff;
+  color: black;
+  font-size: 19px;
+}
+#alert-x{
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.colors-btn{
+  border-radius: 50%;
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+}
+
+#green{
+  background-color: green;
+}
+
+#yellow{
+  background-color: rgb(232, 255, 23);
+}
+
+#blue{
+  background-color: rgb(65, 49, 209);
+}
